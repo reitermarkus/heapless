@@ -94,7 +94,7 @@ mod histbuf;
 mod indexmap;
 mod indexset;
 mod linear_map;
-mod string;
+pub mod string;
 mod vec;
 
 #[cfg(feature = "serde")]
